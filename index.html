@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/hangman/JS-Hangman-game/styles/styles.css">
+    <link rel="icon" href="/hangman/JS-Hangman-game/images/favicon.png">   
     <title>Hangman</title>
 </head>
 <body>
-    <p id="puzzle"></p>
-    <p id="guesses"></p>
-    <button id="reset">Reset</button>
-
-    <script src="requests-async.js"></script>
-    <script src="hangman-class.js"></script>
-    <script src="app.js"></script>
+    <div>
+        <h1>Hangman Game</h1>
+        <div class="puzzle" id="puzzle"></div> 
+        <p id="guesses"></p>
+        <button class="button" id="reset">Reset</button>
+    </div>
+    
+    <script src="/hangman/JS-Hangman-game/scripts/requests-async.js"></script>
+    <script src="/hangman/JS-Hangman-game/scripts/hangman-class.js"></script>
+    <script src="/hangman/JS-Hangman-game/scripts/app.js"></script>
 </body>
 </html>
