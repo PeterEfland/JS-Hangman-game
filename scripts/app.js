@@ -29,24 +29,5 @@ document.querySelector('#reset').addEventListener('click', startGame)
 
 startGame()
 
-// getPuzzle('2').then((puzzle) => {
-//     console.log(puzzle)
-// }).catch((err) => {
-//     console.log(`Error: ${err}`)
-// })
-
-
-// getCountry('BR').then((country) => {
-//     console.log(country.name) 
-// }).catch((err) => {
-//     console.log(`Error: ${err}`)
-// })
-
-
-// getCurrentCountry().then((country) => {
-//     console.log(country.name)
-// }).catch((error) => {
-//     console.log(`Error: ${err}`)
-// })
 
 
